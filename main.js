@@ -22,37 +22,6 @@ const app = {
                 }
             }, 500);
         }
-
-        minus.onclick = function(){
-            animation.classList.add('active')
-
-            setTimeout(() => {
-                animation.classList.remove('active')
-                if(firstValue.value && secondValuegit.value){
-                    sum.value =  Number(firstValue.value) - Number(secondValue.value)
-                }
-            }, 500);
-        }
-        division.onclick = function(){
-            animation.classList.add('active')
-
-            setTimeout(() => {
-                animation.classList.remove('active')
-                if(firstValue.value && secondValuegit.value){
-                    sum.value =  Number(firstValue.value) / Number(secondValue.value)
-                }
-            }, 500);
-        }
-        multip.onclick = function(){
-            animation.classList.add('active')
-
-            setTimeout(() => {
-                animation.classList.remove('active')
-                if(firstValue.value && secondValuegit.value){
-                    sum.value =  Number(firstValue.value) * Number(secondValue.value)
-                }
-            }, 500);
-        }
     },
 
     start: function(){
