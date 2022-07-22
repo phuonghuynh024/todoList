@@ -44,7 +44,6 @@ const app = {
         }
         division.onclick = function(){
             animation.classList.add('active')
-
             setTimeout(() => {
                 animation.classList.remove('active')
                 if(firstValue.value && secondValue.value){
